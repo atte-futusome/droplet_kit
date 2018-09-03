@@ -10,5 +10,7 @@ module DropletKit
 
     # Used for creates
     attribute :snapshot_id
+    attribute :filesystem_type
+    attribute :filesystem_label
   end
 end
